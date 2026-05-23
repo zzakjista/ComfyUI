@@ -3,7 +3,7 @@ name = "ComfyUI"
 version = "0.22.0"
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 
 [project.urls]
 homepage = "https://www.comfy.org/"
@@ -73,3 +73,7 @@ messages_control.disable = [
   "no-else-return",
   "unused-variable",
 ]
+
+[tool.poetry.dependencies]
+pandas = "^3.0.3"
+duckdb = "^1.5.3"

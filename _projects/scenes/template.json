@@ -1,0 +1,40 @@
+{
+  "variation_id": "string (unique_id)",
+  "concept_tags": ["string"],
+  "creative_direction": {
+    "environment": {
+      "location_context": "string",
+      "atmosphere_and_time": "string",
+      "background_elements": "string"
+    },
+    "cinematography": {
+      "framing": "string",
+      "camera_angle": "string",
+      "focus_profile": "string"
+    },
+    "subject_state": {
+      "pose_action": "string",
+      "facial_expression": "string"
+    }
+  },
+  "style_override": {
+    "apply_override": "boolean",
+    "hair": {
+      "style": "string",
+      "color": "string"
+    },
+    "makeup": {
+      "vibe": "string",
+      "intensity": "string"
+    },
+    "wardrobe": {
+      "exact_manifest": "string",
+      "jewelry": "string"
+    }
+  },
+  "downstream_runtime_extensions": {
+    "target_resolution": null,
+    "generation_seed": null,
+    "negative_prompt_overrides": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variation_id": "var-20260523-seongsu",
+  "concept_tags": ["lifestyle", "street_fashion", "casual_luxury"],
+  "creative_direction": {
+    "environment": {
+      "location_context": "an upscale brutalist concrete cafe terrace in Seongsu-dong",
+      "atmosphere_and_time": "late afternoon warm golden hour, soft volumetric light rays filtering through foliage",
+      "background_elements": "minimalist structural architecture, blurred deep green monstera plants, soft urban background bokeh"
+    },
+    "cinematography": {
+      "framing": "medium close-up fashion editorial shot",
+      "camera_angle": "eye-level, direct and level with the subject",
+      "focus_profile": "shallow depth of field, sharp foreground focus on the subject, creamy liquid background blurring"
+    },
+    "subject_state": {
+      "pose_action": "sitting gracefully at a raw concrete table, left hand gently cradling the jawline, right hand touching a ceramic cup",
+      "facial_expression": "a subtle, relaxed, and enigmatic faint smile, looking directly into the camera lens"
+    }
+  },
+  "style_override": {
+    "apply_override": true,
+    "hair": {
+      "style": "half-updo top knot with soft face-framing wisps",
+      "color": "dark espresso brown"
+    },
+    "makeup": {
+      "vibe": "dewy glass-skin look, soft rose-colored lip gloss, subtle coral blush suitable for late afternoon sun",
+      "intensity": "natural"
+    },
+    "wardrobe": {
+      "exact_manifest": "an oversized charcoal gray premium wool blazer over a crisp, plain white luxury cotton t-shirt",
+      "jewelry": "minimalist thin silver hoops, a delicate silver chain necklace"
+    }
+  },
+  "downstream_runtime_extensions": {
+    "target_resolution": null,
+    "generation_seed": null,
+    "negative_prompt_overrides": null
+  }
+}

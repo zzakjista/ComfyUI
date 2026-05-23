@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "3.0.0",
+  "universal_character_id": "char-stella-001",
+  "biometrics": {
+    "ethnicity": "East Asian / Korean",
+    "biological_gender": "female",
+    "apparent_age": 24,
+    "physical_height_cm": 168,
+    "body_build": "slender and toned athletic figure, well-proportioned skeletal structure"
+  },
+  "facial_anatomy_constants": {
+    "face_shape": "soft oval face contour, clean defined jawline, smooth cheekbone transitions",
+    "eyes": "almond-shaped dark brown eyes, thin parallel double eyelids, clear vibrant gaze",
+    "nose": "straight narrow bridge, refined and slightly upturned nose tip",
+    "mouth": "symmetrical lip line, distinct cupid's bow, natural soft plumpness",
+    "skin_profile": "porcelain skin tone, natural flawless texture, ultra-fine micro-pores visible under close-up"
+  },
+  "permanent_signature_marks": [
+    {
+      "type": "mole",
+      "visual_description": "a single tiny distinct dark brown beauty mark",
+      "anatomical_location": "exactly 1cm below the outer corner of the left eye"
+    }
+  ],
+  "brand_signature_styles": {
+    "default_hair": {
+      "cut": "sleek shoulder-length blunt tassel bob cut",
+      "color": "dark espresso brown"
+    },
+    "default_makeup_vibe": "clean and minimalist K-beauty profile, soft coral lips",
+    "default_wardrobe_vibe": "minimalist quiet luxury, neutral tones, tailored blazers"
+  },
+  "downstream_model_extensions": {
+    "flux_native_loras": null,
+    "face_id_ip_adapter_settings": null,
+    "nano_banana_grounding_refs": null
+  }
+}

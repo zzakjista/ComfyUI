@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "3.0.0",
+  "universal_character_id": "string (unique_id)",
+  "biometrics": {
+    "ethnicity": "string",
+    "biological_gender": "string",
+    "apparent_age": "integer",
+    "physical_height_cm": "integer",
+    "body_build": "string"
+  },
+  "facial_anatomy_constants": {
+    "face_shape": "string",
+    "eyes": "string",
+    "nose": "string",
+    "mouth": "string",
+    "skin_profile": "string"
+  },
+  "permanent_signature_marks": [
+    {
+      "type": "string",
+      "visual_description": "string",
+      "anatomical_location": "string"
+    }
+  ],
+  "brand_signature_styles": {
+    "default_hair": {
+      "cut": "string",
+      "color": "string"
+    },
+    "default_makeup_vibe": "string",
+    "default_wardrobe_vibe": "string"
+  },
+  "downstream_model_extensions": {
+    "flux_native_loras": null,
+    "face_id_ip_adapter_settings": null,
+    "nano_banana_grounding_refs": null
+  }
+}
