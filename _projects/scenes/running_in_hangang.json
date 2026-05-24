@@ -1,0 +1,40 @@
+{
+  "variation_id": "var-20260524-hangang",
+  "concept_tags": ["lifestyle", "exercise", "casual_luxury"],
+  "creative_direction": {
+    "environment": {
+      "location_context": "a scenic riverside park along the Hangang River in Seoul, with a paved jogging path lined by lush greenery and modern urban elements in the distance",
+      "atmosphere_and_time": "early morning with soft diffused light, a gentle mist rising from the river, and a calm serene vibe",
+      "background_elements": "a mix of natural and urban elements, including tall leafy trees, a smooth paved path, the calm river surface reflecting the soft morning light, and a faint city skyline in the far background with modern high-rise buildings"
+    },
+    "cinematography": {
+      "framing": "full-body dynamic action shot capturing the subject mid-stride in a natural running pose, with a slight motion blur to convey movement and energy",
+      "camera_angle": "slightly low angle to emphasize the subject's movement and create a sense of empowerment, while also showcasing the scenic background",
+      "focus_profile": "moderate depth of field, with the subject in sharp focus and the background softly blurred to create a sense of depth and highlight the subject's presence in the environment"
+    },
+    "subject_state": {
+      "pose_action": "running along the riverside path, arms in a natural running motion, with a focused and determined expression. Eyes looking camera, engaging with the viewer while in motion, conveying a sense of vitality and connection with the environment",
+      "facial_expression": "a look of concentration and enjoyment, with a slight smile as the subject embraces the morning run"
+    }
+  },
+  "style_override": {
+    "apply_override": true,
+    "hair": {
+      "style": "well cleaned tassel cut with natural movement, slightly tousled from the run, with a few strands softly framing the face",
+      "color": "dark espresso brown"
+    },
+    "makeup": {
+      "vibe": "dewy and fresh-faced, with a focus on a natural glowing complexion, minimal eye makeup, and a soft tinted lip balm to enhance the natural lip color",
+      "intensity": "natural"
+    },
+    "wardrobe": {
+      "exact_manifest": "a lightweight charcoal gray performance running jacket over a breathable white moisture-wicking athletic t-shirt",
+      "jewelry": "only apple watch with a sleek black band, no other jewelry to maintain a sporty and functional look"
+    }
+  },
+  "downstream_runtime_extensions": {
+    "target_resolution": null,
+    "generation_seed": -1,
+    "negative_prompt_overrides": "avoid ai generated style"
+  }
+}

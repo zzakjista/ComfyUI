@@ -1,39 +1,53 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "schema_version": "3.0.0",
+  "schema_version": "3.1.0",
   "universal_character_id": "char-stella-001",
+  "name": "Ju Hyeon Seo",
   "biometrics": {
     "ethnicity": "East Asian / Korean",
     "biological_gender": "female",
     "apparent_age": 24,
     "physical_height_cm": 168,
-    "body_build": "slender and toned athletic figure, well-proportioned skeletal structure"
+    "body_build": "slender and toned athletic figure, well-proportioned skeletal structure, elegant neck-to-shoulder line"
   },
   "facial_anatomy_constants": {
-    "face_shape": "soft oval face contour, clean defined jawline, smooth cheekbone transitions",
-    "eyes": "almond-shaped dark brown eyes, thin parallel double eyelids, clear vibrant gaze",
-    "nose": "straight narrow bridge, refined and slightly upturned nose tip",
-    "mouth": "symmetrical lip line, distinct cupid's bow, natural soft plumpness",
-    "skin_profile": "porcelain skin tone, natural flawless texture, ultra-fine micro-pores visible under close-up"
+    "face_shape": "smooth oval contour with a softly tapered chin, clean defined jawline, subtle cheekbone volume",
+    "eyes": "almond-shaped warm dark brown eyes, crisp semi-inline double eyelids, clear vibrant gaze with a deep iris depth",
+    "nose": "straight narrow bridge, delicate and slightly rounded refined nose tip, proportional alar width",
+    "mouth": "symmetrical clean lip line, defined cupid's bow, natural soft plumpness with a subtle friendly corner lift",
+    "skin_profile": "clear porcelain skin tone, healthy satin finish, ultra-fine micro-pores visible under direct soft sunlight"
   },
   "permanent_signature_marks": [
     {
-      "type": "mole",
-      "visual_description": "a single tiny distinct dark brown beauty mark",
-      "anatomical_location": "exactly 1cm below the outer corner of the left eye"
+      "type": "beauty_mark_mole",
+      "visual_description": "a single pinpoint, distinct dark brown beauty mark",
+      "anatomical_location": "right infraorbital region, approximately 1cm vertically below the outer canthus of the character's right eye",
+      "viewer_perspective_location": "located on the left side of the frame from the viewer's point of view"
     }
   ],
   "brand_signature_styles": {
     "default_hair": {
-      "cut": "sleek shoulder-length blunt tassel bob cut",
-      "color": "dark espresso brown"
+      "cut": "chic chin-length bob cut with subtle internal layering, 7:3 asymmetrical side part",
+      "styling": "right side naturally framing the cheek, left side neatly tucked behind the ear exposing the earlobe",
+      "color": "deep espresso dark brown with natural subtle warm highlights visible under sunlight"
     },
-    "default_makeup_vibe": "clean and minimalist K-beauty profile, soft coral lips",
-    "default_wardrobe_vibe": "minimalist quiet luxury, neutral tones, tailored blazers"
+    "default_makeup_vibe": {
+      "skin": "dewy, translucent K-beauty base with soft natural contouring",
+      "eyes": "minimalist earthy brown eyeshadow gradient, tight tightlining, naturally defined brows",
+      "lips": "semi-glossy MLBB soft coral-chili tint with a blurred edge gradient"
+    },
+    "default_wardrobe_vibe": {
+      "aesthetic": "minimalist quiet luxury, sophisticated modern tailoring",
+      "key_pieces": "oversized structured tailored blazer in charcoal gray, premium heavyweight white inner t-shirt",
+      "color_palette": ["charcoal gray", "pure white", "neutral earth tones"]
+    }
   },
   "downstream_model_extensions": {
     "flux_native_loras": null,
-    "face_id_ip_adapter_settings": null,
+    "face_id_ip_adapter_settings": {
+      "insightface_extraction_weights": "high_fidelity",
+      "attention_masking_priority": ["eyes", "nose_bridge", "right_eye_mole"]
+    },
     "nano_banana_grounding_refs": null
   }
 }
